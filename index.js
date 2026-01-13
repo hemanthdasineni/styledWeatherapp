@@ -84,25 +84,25 @@ async function check(city) {
     currentday.style=""
     if (temperature_value < 0) {
                 video.load()
-        weathervideo.src='../trainerweatherapp/videos/freezing temperature.mp4';
+        weathervideo.src='./videos/freezing temperature.mp4';
         weatherImg.src = 'images/freezing.jpg';
     } else if (temperature_value >= 0 && temperature_value < 10) {
         weatherImg.src = 'images/Cold.jpg';
                 video.load()
-                weathervideo.src='../trainerweatherapp/videos/cool day.mp4';
+                weathervideo.src='./videos/cool day.mp4';
     } else if (temperature_value >= 10 && temperature_value < 20) {
         weatherImg.src = 'images/Cool.jpg';
                 video.load()
-                weathervideo.src='../trainerweatherapp/videos/cold day.mp4'
+                weathervideo.src='./videos/cold day.mp4'
     } else if (temperature_value >= 20 && temperature_value < 30) {
         weatherImg.src = 'images/Warm.jpg'; 
                 video.load()
-                weathervideo.src='../trainerweatherapp/videos/warm weather.mp4';
+                weathervideo.src='./videos/warm weather.mp4';
              
     } else {
         weatherImg.src = 'images/Hot.jpg';
                 video.load()
-                weathervideo.src='../trainerweatherapp/videos/sunny day.mp4';
+                weathervideo.src='./videos/sunny day.mp4';
 
     }
 
